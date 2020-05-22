@@ -24,7 +24,7 @@ public class Food {
     @ColumnInfo(name = "foodScore")
     private int score;
 
-    public Park (String creationDate, String name, String location, int score) {
+    public Food (String creationDate, String name, String location, int score) {
         this.creationDate = creationDate;
         this.name = name;
         this.location = location;
@@ -57,7 +57,7 @@ public class Food {
     }
     
  
-
+}
 
 
 
