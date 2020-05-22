@@ -24,7 +24,8 @@ public class Food {
     @ColumnInfo(name = "foodScore")
     private int score;
 
-    public Park (String creationDate, String name, String location, int score) {
+    //nome do construtor da classe deve ser o mesmo nome da classe
+    public Food (String creationDate, String name, String location, int score) {
         this.creationDate = creationDate;
         this.name = name;
         this.location = location;
@@ -60,5 +61,6 @@ public class Food {
 
 
 
-
+}
+//faltou finalizar o bloco da classe com fecha parenteses
 
